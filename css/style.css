@@ -1,0 +1,56 @@
+html {
+	cursor:url("../img/1.png"),auto;
+}
+body {
+	text-align:center;
+	word-break:keep-all;
+	background-color:#F7F8F8;
+}
+a {
+	color:black;
+	text-decoration:none;;
+}
+a:hover {
+	cursor:url("../img/2.png"),auto;
+	color:#201EA9;
+}
+.title-wrapper {
+	position:relative;
+	margin-top:170px;
+	margin-left:300px;
+	margin-right:300px;
+	font-size:64px;
+	font-family:'Abril Fatface', cursive;
+	<!--border: 1px solid black;-->
+}
+.title-left {
+	position:absolute;
+	margin-left:-60px;
+	<!--border: 1px solid red;-->
+}
+.title-middle {
+	position:absolute;
+	margin-top:86px;
+	margin-left:190px;
+	<!--border: 1px solid blue;-->
+}
+.title-right {
+	position:absolute;
+	margin-left:430px;
+	<!--border: 1px solid green;-->
+}
+.arrow {
+	position:relative;
+	margin-right:80px;
+}
+#sub {
+	position:relative;
+	margin-right:20px;
+	color:gray;
+	font-size:20px;
+	font-family:'Yomogi', cursive;
+}
+#hint:hover {
+	color:#201EA9;
+	cursor:url("../img/2.png"),auto;
+}
