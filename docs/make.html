@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/style2.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>MAKE</title>
+	<style>
+		#index-2 {
+			color:#201EA9;
+		}
+		.mid-title {
+			position:relative;
+			font-size:28px;
+			font-family: 'Montserrat', sans-serif;
+			top:200px;
+		}
+		.bird {
+			position:absolute;
+			top:110px;
+			left:600px;
+			right:0;
+		}
+		#two {
+			display:none;
+		}
+	</style>
+</head>
+<body onload="walk()">
+	<div class="top-wrapper">
+		<span id="home"><a href="../index.html"><img src="../img/1.png" height="50px"></a></span>
+		<span id="index"><a id="index-0" href="./cv.html">I AM</a></span>
+		<span id="what">WHAT I</span>
+		<span id="index">
+			<a id="index-1" href="./code.html">CODE</a>
+			<a id="index-2" href="./make.html">MAKE</a>
+			<a id="index-3" href="./read.html">READ</a>
+		</span>
+		<span id="contact"><a href="./contact.html"><img src="../img/mail.png" height="50px"></a></span>
+	</div>
+	<div class="middle-wrapper">
+		<div>
+			<img src="../img/bird.png" height=70px class="bird" id="one">
+			<img src="../img/bird2.png" height=70px class="bird" id="two">
+		</div>
+		<div class="mid-title">
+			<a href="./make-docs/make-main.html">Come and see what I've made!</a>
+		</div>
+	</div>
+	<!--javascript-->
+	<script>
+		function walk(){
+			var one = document.getElementById("one");
+			var two = document.getElementById("two");
+			for(var i = 1; i < 200; i=i+2){
+				setTimeout(()=>{one.style.display="none";},300*i);
+				setTimeout(()=>{two.style.display="block";},300*i);
+				setTimeout(()=>{one.style.display="block";},300*(i+1));
+				setTimeout(()=>{two.style.display="none";},300*(i+1));
+			}
+		}
+	</script>
+</body>
+</html>
