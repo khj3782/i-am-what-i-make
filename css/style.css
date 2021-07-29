@@ -31,12 +31,13 @@ a:hover {
 .title-middle {
 	position:absolute;
 	margin-top:86px;
-	margin-left:190px;
+	left:0;
+	right:0;
 	<!--border: 1px solid blue;-->
 }
 .title-right {
 	position:absolute;
-	margin-left:430px;
+	margin-left:450px;
 	<!--border: 1px solid green;-->
 }
 .arrow {
