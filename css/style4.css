@@ -48,7 +48,6 @@ button:hover{
 	right:0;
 }
 .middle-wrapper{
-	font-family: 'STIX Two Text', serif;
 	width:600px;
 	margin-left:auto;
 	margin-right:auto;
@@ -56,6 +55,14 @@ button:hover{
 	margin-top:120px;
 	left:0;
 	right:0;
+}
+#korean{
+	<!--font-family: 'Nanum Myeongjo', serif-->;
+	font-family: 'Gowun Batang', serif;
+	line-height: 25px;
+}
+#english{
+	font-family: 'STIX Two Text', serif;
 }
 #home {
 	position:absolute;
@@ -91,8 +98,8 @@ button:hover{
 	margin-left:70px;
 }
 #title{
-	margin-top:50px;
-	margin-bottom:30px;
+	margin-top:60px;
+	margin-bottom:40px;
 	font-size:44px;
 	font-weight:bold;
 }
