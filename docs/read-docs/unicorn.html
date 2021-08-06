@@ -45,7 +45,6 @@
 				<p>&nbsp 지금 만들고 있는 <i>바로 이 웹페이지를</i> Github에 호스팅하고 잘 접속되는지 확인해보려는 찰나였다. 주소창에 내 웹페이지의 주소를 입력하고 Enter 키를 의기양양하게
 				누른 순간, 나는 처음 보는 에러와 맞닥뜨렸다. 503 Error라는 메세지와 함께 나는 사나운 유니콘과 눈이 마주쳤다.
 				</p>
-				<p>&nbsp </p>
 				<figure class="image">
 					<a href="https://github.com/503.html" target="_blank">
 						<img src="../../img/unicorn.png" id="in-contents" width="200px">
@@ -53,8 +52,14 @@
 					<figcaption style="color:#BDBDBD;">사나운 유니콘과 눈이 마주쳤다</figcaption>
 				</figure>
 			<p>&nbsp 인터넷에 찾아보니 503 에러는 <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503" target="_blank">
-			해당 페이지가 unavailable할 때</a> 발생한다고 한다. 그럼 대체 이 에러와 멋쟁이 유니콘이 무슨 상관인 걸까.
+			해당 페이지가 unavailable할 때</a> 발생한다고 한다. 그럼 대체 이 에러와 멋쟁이 유니콘이 무슨 상관인 걸까. 이 기묘한 상관관계가 궁금해져 검색하다가 발견한 게 바로 깃허브
+			개발자의 오래된 (무려 2009년에 작성된) 블로그 글이었다. 제목은 아주 간단명료한 <a href="https://github.blog/2009-10-09-unicorn/" target="_blank">Unicorn!</a>
 			</p>
+			<p>&nbsp 보아하니, 유니콘은 Ruby라는 프로그램 언어를 사용한 웹 앱을 작동시킬 수 있는 HTTP 서버의 이름인 것 같다. 해당 서버가 응답하지 않거나 오작동을 일으키면 503 에러를
+			뱉으면서 저 유니콘을 보여주는 것이다. 블로그 글을 읽으면서 알게된 사소한 사실인데, <a href="https://github.com/502" target="_blank">502 에러가 일어났을 때에도</a>\
+			같은 유니콘 그림이 나타난다. 블로그 글 작성자 말에 따르자면 30초 내로 서버의 unicorn-worker가 응답하지 않으면 
+			웹소켓이라든지, 웹서버에서 master-worker 관계와 같은 기본적인 개념이 부족한 나는 저 친절한 블로그 글을 전부 이해하지는 못했지만, 딱 한 가지
+			이해한 게 있다면, 그건 바로 </p>
 			</div>
 		</div>
 		<div class="article-list">
