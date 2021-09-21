@@ -2,56 +2,76 @@ html {
 	cursor:url("../img/1.png"),auto;
 }
 body {
+	background-color:#FDF4D9;
+	font-family: 'Nanum Gothic', sans-serif;
+	margin:0;
 	text-align:center;
 	word-break:keep-all;
-	background-color:#F7F8F8;
 }
 a {
 	color:black;
 	text-decoration:none;;
 }
 a:hover {
-	cursor:url("../img/2.png"),auto;
 	color:#201EA9;
+	cursor:url("../img/2.png"),auto;
 }
-.title-wrapper {
+.top-menu-bar{
+	background:rgb(255,255,255,0.75);
+	height:70px;
+	position:fixed;
+	width:100%;
+	z-index:1;
+}
+.main{
+	height:1000px;
 	position:relative;
-	margin-top:170px;
-	margin-left:300px;
-	margin-right:300px;
-	font-size:64px;
-	font-family:'Abril Fatface', cursive;
-	<!--border: 1px solid black;-->
 }
-.title-left {
-	position:absolute;
-	margin-left:-60px;
-	<!--border: 1px solid red;-->
-}
-.title-middle {
-	position:absolute;
-	margin-top:86px;
+.title{
+	color:#A37003;
+	font-family: 'Gugi', cursive;
+	font-size:44px;
+	font-weight:bold;
 	left:0;
-	right:0;
-	<!--border: 1px solid blue;-->
-}
-.title-right {
 	position:absolute;
-	margin-left:450px;
-	<!--border: 1px solid green;-->
+	right:0;
+	text-align:center;
+	top:200px;
 }
-.arrow {
+.subtitle{
+	color:#A37003;
+	font-family: 'Gugi', cursive;
+	font-size:18px;
+	left:0;
+	position:absolute;
+	right:0;
+}
+.logo{
+	top:330px;
+}
+.content{
+	left:10%;
+	position:absolute;
+	right:10%;
+	top:400px;
+}
+.bottom{
+	height:150px;
 	position:relative;
-	margin-right:80px;
 }
-#sub {
-	position:relative;
-	margin-right:20px;
-	color:gray;
-	font-size:20px;
-	font-family:'Yomogi', cursive;
+.bottom-contact{
+	bottom:120px;
 }
-#hint:hover {
-	color:#201EA9;
-	cursor:url("../img/2.png"),auto;
+.box{
+	background-color:white;
+	border-radius:20px;
+	display:inline-block;
+	/*font-family: 'Nanum Myeongjo', serif;*/
+	font-family: 'Gowun Batang', serif;
+	font-size:16px;
+	line-height:1.5;
+	margin:5px;
+	padding:20px;
+	text-align:left;
+	width:180px;
 }
