@@ -43,11 +43,23 @@ a:hover {
 	font-family: 'Gugi', cursive;
 	font-size:18px;
 	left:0;
-	position:absolute;
+	margin:50px;
 	right:0;
 }
 .logo{
+	color:#A37003;
+	font-family: 'Gugi', cursive;
+	font-size:18px;
+	left:0;
+	position:absolute;
+	right:0;
 	top:330px;
+}
+.introduction{
+	top:50px;
+}
+.education{
+	top:450px;
 }
 .content{
 	left:10%;
@@ -66,12 +78,12 @@ a:hover {
 	background-color:white;
 	border-radius:20px;
 	display:inline-block;
-	/*font-family: 'Nanum Myeongjo', serif;*/
-	font-family: 'Gowun Batang', serif;
 	font-size:16px;
 	line-height:1.5;
 	margin:5px;
 	padding:20px;
 	text-align:left;
-	width:180px;
+}
+.intro{
+	width:200px;
 }

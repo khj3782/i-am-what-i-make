@@ -1,0 +1,27 @@
+body{
+  background-color:#F2F2F2;
+  margin:0;
+  word-break:keep-all;
+}
+td{
+  vertical-align: top;
+}
+.description{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size:18px;
+}
+.description-strong{
+  font-size:22px;
+}
+.title-description{
+  font-family: 'Gugi', cursive;
+}
+.subtitle-description{
+  font-family: 'Gugi', cursive;
+  font-size:20px;
+  text-align:right;
+}
+.bottom-description{
+  font-size:12px;
+  text-align:center;
+}
