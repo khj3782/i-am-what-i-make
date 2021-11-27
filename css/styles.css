@@ -30,6 +30,12 @@ a{
   text-align:center;
 }
 
+/* about */
+.thumb-icon{
+  font-size:4rem;
+  margin:1.5rem;
+}
+
 /* work1 */
 .thumbnail{
   margin-left:auto;
