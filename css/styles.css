@@ -36,11 +36,27 @@ a{
   margin:1.5rem;
 }
 
-/* work1 */
+/* work */
 .thumbnail{
-  margin-left:auto;
-  margin-right:auto;
+  margin:auto;
   width:20rem;
+}
+.work-title{
+  padding:2rem;
+}
+.fa-link{
+  padding:0.5rem;
+}
+.carousel-item{
+  text-align:center;
+}
+.example-img{
+  width:80%;
+}
+@media (max-width:800px){
+  .example-img{
+    width:100%;
+  }
 }
 
 /* contact */

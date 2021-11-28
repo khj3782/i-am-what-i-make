@@ -8,6 +8,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/ca3835c383.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="../css/styles.css">
 	<link rel="shortcut icon" href="../favicon.ico">
 	<meta property="og:title" content="김돌멩의 코딩 창고">
@@ -36,7 +37,7 @@
 					<li class="nav-item">
 						<a class="nav-link" href="../index.html">Home</a>
 					</li>
-          <li class="nav-item">
+					<li class="nav-item">
 						<a class="nav-link" href="about.html">About</a>
 					</li>
 					<li class="nav-item dropdown">
@@ -45,7 +46,9 @@
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 							<li><a class="dropdown-item" aria-current="page" href="#">Windowless sky</a></li>
-							<li><hr class="dropdown-divider"></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
 							<li><a class="dropdown-item" href="#">시:원함</a></li>
 							<li><a class="dropdown-item" href="#">유일사</a></li>
 							<li><a class="dropdown-item" href="#">QRD</a></li>
@@ -61,11 +64,70 @@
 	<!--main contents-->
 	<div class="container-fluid">
 		<div class="row mt-5 p-5 center-contents">
-			<img src="../img/ws.jpg" class="align-middle thumbnail"/>
-			<p>Windowless Sky</p>
+			<img src="../img/ws.jpg" class="align-middle thumbnail" />
+			<p class="work-title description-strong">
+				<strong>Windowless Sky</strong>
+				<a href="https://khj3782.github.io/windowless/index.html" target="_blank">
+					<i class="fas fa-border fa-link"></i>
+				</a>
+			</p>
 		</div>
-		<div class="row py-5 bg-white">
+		<div class="row p-5 bg-white center-contents">
+			<div class="col-sm-3">
+			</div>
+			<div class="col-sm-6 p-4">
+				<p class="description">
+					<i class="fas fa-quote-left fa-2x fa-pull-left"></i>
+					매해 수만 마리의 새들이 유리창에 부딪혀 죽음을 맞습니다.
+				</p>
+				<p>
+					새들은 투명한 유리를 보지 못해서, 혹은 유리창에 비친 하늘을 진짜라고 착각해서,
+					투명한 방음벽과 유리 건물을 향해 날아듭니다. 허공을 날다가 고층 건물에 충돌하기도 하고,
+					산 속에 지어진 건물이나 나무로 둘러싸인 방음벽에 부딪치기도 합니다. 빠른 속도로 날아온
+					그들은 충돌과 동시에 목이 꺾이거나 뇌진탕으로 자주 사망에 이릅니다. 이러한 죽음을
+					'조류 충돌(window collision)'이라고 부릅니다.
+				</p>
+				<p>
+					이 웹사이트는 사람들에게 조류 충돌의 원인을 직관적으로 전달하기 위해 만들어졌습니다.
+					각 페이지에는 유리창에 반사된/유리창을 통해서 본 하늘 사진 셋과 진짜 하늘 사진 하나가
+					제시됩니다. 사이트 이용자가 진짜 하늘을 찾아내면 다음 페이지로 무사히 넘어갈 수 있습니다.
+				</p>
+			</div>
+			<div class="col-sm-3">
+			</div>
 		</div>
+	</div>
+
+	<section id="page-example">
+
+		<div id="carouselExampleControls" class="py-5 carousel slide" data-ride="false">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="example-img" src="../img/windowless.PNG" alt="windowless-sky example image">
+				</div>
+				<div class="carousel-item">
+					<img class="example-img" src="../img/windowless2.PNG" alt="windowless-sky example image">
+				</div>
+				<div class="carousel-item">
+					<img class="example-img" src="../img/windowless3.PNG" alt="windowless-sky example image">
+				</div>
+				<div class="carousel-item">
+					<img class="example-img" src="../img/windowless4.PNG" alt="windowless-sky example image">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+	</section>
+
+	<div class="container-fluid">
 		<div class="row pt-4 pb-3 px-2 bottom-description">
 			<div class="col-sm-3">
 				2021.11.27.
