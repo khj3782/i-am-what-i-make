@@ -60,6 +60,21 @@ a{
   }
 }
 
+.item{
+  background-color:white;
+  border-radius: 50%;
+  height:300px;
+  padding:80px 50px 80px 50px;
+}
+.item a{
+  color:#569CB6;
+  text-decoration:underline;
+}
+.item:hover{
+  background-color:black;
+  color:white;
+}
+
 /* contact */
 .center-contents{
   text-align:center;
